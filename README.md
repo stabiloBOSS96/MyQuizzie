@@ -4,6 +4,7 @@ With MyQuizzie you can simply create your own Quizzes and check your knowledge. 
 
 The following must be added: It is a group project from my university. 
 This implementation is one option how to handle the task definition from our professor. Feel free to create your own Version inspired by the work of our group.
+I know: The impementation does not always make sense and the used technics aren't the state of the art. But it works (most of the time)! And thats all our Prof. wants to have;)
 
 Usage
 ------
@@ -22,6 +23,4 @@ Setup
 5. Switch to the specific folder where you saved the App.
 6. Done
 
-Contribute
-----------
-Feel free to fork this repo and submit a pull request.
+
