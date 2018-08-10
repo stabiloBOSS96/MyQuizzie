@@ -21,3 +21,7 @@ Setup
 4. Run the App locally on a Webserver.
 5. Switch to the specific folder where you saved the App.
 6. Done
+
+Contribute
+----------
+Feel free to fork this repo and submit a pull request.
