@@ -1,0 +1,74 @@
+<link rel="stylesheet" href="style/login_style.css">
+
+<div class="mdl-grid materialContainer">
+      
+            <div class=" mdl-cell mdl-cell--12-col">
+                  <div class="box mdl-cell mdl-cell--8-col mdl-cell--12-col-mobile">
+
+                        <div class="title">LOGIN</div>
+                        <form id="logindaten" action="#" method="post">
+                              <div class="input">
+                                    <label for="anmeldename">Nutzername</label>
+                                    <input type="text" name="anmeldename" id="anmeldename">
+                                    <span class="spin"></span>
+                              </div>
+
+                              <div class="input">
+                                    <label for="pass">Passwort</label>
+                                    <input type="password" name="pass" id="pass">
+                                    <span class="spin"></span>
+                              </div>
+
+
+                        </form>
+
+                        <div class="button login">
+                              <button id="btn_sub">
+                                    <span>GO</span>
+                                    <i class="fa fa-check"></i>
+                              </button>
+                        </div>
+
+
+                  </div>
+
+                  <div class="overbox mdl-cell mdl-cell--8-col mdl-cell--12-col-mobile">
+                        <div class="material-button alt-2 ">
+                              <span class="shape"></span>
+                        </div>
+
+                        <div class="title">Konto erstellen</div>
+                        <form id="anmeldedaten" action="#" method="post">
+                              <div class="input">
+                                    <label for="name">Nutzername</label>
+                                    <input type="text" name="name" id="name">
+                                    <span class="spin"></span>
+                              </div>
+
+                              <div class="input">
+                                    <label for="pwd1">Passwort</label>
+                                    <input type="password" name="pwd1" id="pwd1">
+                                    <span class="spin"></span>
+                              </div>
+
+                              <div class="input">
+                                    <label for="pwd2">...wiederholen</label>
+                                    <input type="password" name="pwd2" id="pwd2">
+                                    <span class="spin"></span>
+                              </div>
+
+
+                        </form>
+                        <div class="button">
+                              <button id="btn_register">
+                                    <span>NEXT</span>
+                              </button>
+                        </div>
+
+                  </div>
+
+            </div>
+      </div>
+
+<script type="text/javascript" src="js/login_animation.js"></script>
+<script type="text/javascript" src="js/login_logik.js"></script>

@@ -1,0 +1,177 @@
+.box {
+    border: 0px solid #666;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: #333;
+    padding: 15px 15px 15px 15px;
+    background: #fff;
+    border-radius: 1em;
+}
+.center {
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.title {
+   
+    line-height: 46px;
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #ED2553;
+}
+.s{
+    color: #ED2553;
+}
+
+
+.Frage {
+  
+    line-height: 46px;
+    font-weight: 400;
+    color: black;
+}
+
+.answer {
+    padding: 0.75em ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 0.3em;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    border: none;
+    font-family: sans-serif;
+    font-size: 18px;
+    hyphens: auto;
+}
+
+:focus {
+    outline: none
+}
+
+
+
+
+.button button {
+
+    line-height: 64px;
+    left: 0%;
+    background-color: transparent;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+
+.button button {
+    background-color: #fff;
+    color: #ED2553;
+    border: none;
+}
+
+
+button.active,
+#answer_commit_btn.active {
+    border: 3px solid transparent;
+    color: #fff ;
+}
+
+
+button.active span {
+    opacity: 0;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+}
+
+
+button.active i.fa {
+    opacity: 1;
+    transform: scale(1) rotate(-0deg);
+    -webkit-transform: scale(1) rotate(-0deg);
+    -ms-transform: scale(1) rotate(-0deg);
+}
+
+
+button i.fa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 60px;
+    transform: scale(0) rotate(-45deg);
+    -webkit-transform: scale(0) rotate(-45deg);
+    -ms-transform: scale(0) rotate(-45deg);
+}
+
+
+button:hover,
+#answer_commit_btn:hover {
+    color: #ED2553;
+    border-color: #ED2553;
+}
+
+
+.button {
+    overflow: hidden;
+    z-index: 2;
+}
+
+
+.button button {
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+
+
+#continue_btn, #to_myq_btn, #to_login_btn, #to_cat_btn, #btn_finish {
+    line-height: 64px;
+    left: 0%;
+    background-color: transparent;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    font-weight: 900;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+button.active,
+#continue_btn.active, #to_myq_btn.activ, #to_login_btn.active, #to_cat_btn.active, #btn_finish.active{
+    border: 3px solid transparent;
+    color: #fff !important;
+}
+
+
+button:hover,
+#continue_btn:hover, #to_myq_btn:hover, #to_login_btn:hover, #to_cat_btn:hover, #btn_finish:hover{
+    color: #ED2553;
+    border-color: #ED2553;
+}
+
+.button.btn-primary{
+    background-color: yellow !important;
+    
+}
+
+
+.btn-success {
+    border: 3px solid transparent;
+    border-color:  #8CF139;
+    font-size: 21px;
+}
+.btn-success:hover {
+    color:black;
+    border-color:#8CF139;
+}
+
+.btn-danger {
+    border: 3px solid transparent;
+    border-color:  #ED2553;
+    font-size: 21px;
+}
+.btn-danger:hover {
+    color:black;
+}

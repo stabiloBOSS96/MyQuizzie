@@ -1,0 +1,48 @@
+<script type="text/javascript">
+    $('#btn_saveQuestions').click(function () {
+        $.post(
+            'handle_createCategory.php',
+            $('#data_category').serialize(),
+            function (data) {
+                if (data == 1) {
+                    $('main').load('category.php');
+                    document.getElementById("txt_container_error").style.visibility = "hidden";
+                } else {
+
+                    document.getElementById("txt_error").innerHTML = txt_error_alg;
+                    document.getElementById("txt_container_error").style.visibility = "visible";
+                    $("#txt_container_error").addClass(" mdl-color-text--red");
+                }
+            },
+            'html'
+        );
+
+    });
+</script>
+
+<link rel="stylesheet" href="style/play_quiz_style.css">
+<div class="mdl-grid">
+    <div class="mdl-layout-spacer"></div>
+
+    <div class="box">
+        <div class="title mdl-cell mdl-cell--12-col">Kategorie erstellen
+
+        </div>
+        <form id="data_category" action="#">
+            <div class="demo-charts mdl-color--white  mdl-cell mdl-cell--12-col mdl-grid">
+                <input name="category" class="mdl-textfield__input" type="text" placeholder="MyQuizz Kategorie..." required>
+                <br><br>
+                <input name="description" class="mdl-textfield__input" type="text" placeholder="Beschreibung...">
+            </div>
+        </form>
+        <div class="mdl-cell mdl-cell--3-col center">
+                <button id="btn_saveQuestions" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect color-main-btn">
+                    <i class="material-icons">save</i>
+                </button>
+            </div>
+    </div>
+
+    <div class="mdl-layout-spacer"></div>
+</div>
+
+

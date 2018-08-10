@@ -1,0 +1,9 @@
+.center {
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.userInfo{
+    margin-top: 10px !important;
+}
